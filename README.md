@@ -5,24 +5,34 @@ This project is a simple Python script that connects a Google Generative AI mode
 
 It’s lightweight, beginner-friendly, and uses completely free tools end-to-end.
 
-⸻
 
-✨ What This Script Does
-	•	Takes input from the user
-	•	Sends it to a Google Generative AI model
-	•	Receives the model’s response
-	•	Converts that response into speech using a free TTS API
-	•	Plays the generated audio locally
+✨*What This Script Does
 
-⸻
+•	Takes input from the user
 
-📦 Requirements
+•	Sends it to a Google Generative AI model
+
+•	Receives the model’s response
+
+•	Converts that response into speech using a free TTS API
+
+•	Plays the generated audio locally
+
+
+
+
+
+📦 *Requirements*
 
 #Install the necessary Python packages:
+
 pip install google-generativeai requests
 
 #Install the audio player used for playback:
+
 sudo apt install mpg123
+
+
 
 
 🔧 Setup Instructions
@@ -32,13 +42,21 @@ sudo apt install mpg123
 3. Add your base context
 
 
+
+
 🗣️ Text-to-Speech Info
 
 The script uses StreamElements’ free TTS API:
-	•	No API key required
-	•	Fast responses
-	•	Voice can be changed (default: Joanna)
-	•	Audio is saved as model_voice.mp3 and played using mpg123
+	
+•	No API key required
+	
+•	Fast responses
+	
+•	Voice can be changed (default: Joanna)
+	
+•	Audio is saved as model_voice.mp3 and played using mpg123
+
+
 
 
 📜 License
